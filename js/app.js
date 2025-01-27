@@ -20,7 +20,7 @@ function adicionar() {
           <span class="texto-azul">${quantidade}x</span> ${nomeProduto} <span class="texto-azul">R$${preco}</span>
         </section>`;
     //erro caso ainda consiga colocar produto com quantidade 0
-    /*if (quantidade == 0) {
+    if (quantidade == 0) {
         alert('ERRO: Faltou escolher a quantidade do produto');
         limpar();
     } else {
@@ -29,7 +29,7 @@ function adicionar() {
         let campoTotal = document.getElementById('valor-total');
         campoTotal.textContent = `R$ ${totalGeral}`;
         document.getElementById('quantidade').value = 0;
-    } */
+    }
 
 }
 
